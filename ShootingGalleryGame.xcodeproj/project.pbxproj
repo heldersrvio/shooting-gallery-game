@@ -14,6 +14,9 @@
 		9AF7EC2824DC0A6A0091B8ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF7EC2624DC0A6A0091B8ED /* Main.storyboard */; };
 		9AF7EC2A24DC0A6D0091B8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF7EC2924DC0A6D0091B8ED /* Assets.xcassets */; };
 		9AF7EC2D24DC0A6D0091B8ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF7EC2B24DC0A6D0091B8ED /* LaunchScreen.storyboard */; };
+		9AF7EC3524DC7A610091B8ED /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7EC3424DC7A610091B8ED /* Fish.swift */; };
+		9AF7EC3724DC8B8F0091B8ED /* bubblepop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9AF7EC3624DC8B8F0091B8ED /* bubblepop.wav */; };
+		9AF7EC3924DC8C0B0091B8ED /* backgroundtheme.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9AF7EC3824DC8C0B0091B8ED /* backgroundtheme.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		9AF7EC2924DC0A6D0091B8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF7EC2C24DC0A6D0091B8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AF7EC2E24DC0A6D0091B8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF7EC3424DC7A610091B8ED /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		9AF7EC3624DC8B8F0091B8ED /* bubblepop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubblepop.wav; sourceTree = "<group>"; };
+		9AF7EC3824DC8C0B0091B8ED /* backgroundtheme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = backgroundtheme.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				9AF7EC2924DC0A6D0091B8ED /* Assets.xcassets */,
 				9AF7EC2B24DC0A6D0091B8ED /* LaunchScreen.storyboard */,
 				9AF7EC2E24DC0A6D0091B8ED /* Info.plist */,
+				9AF7EC3624DC8B8F0091B8ED /* bubblepop.wav */,
+				9AF7EC3824DC8C0B0091B8ED /* backgroundtheme.wav */,
+				9AF7EC3424DC7A610091B8ED /* Fish.swift */,
 			);
 			path = ShootingGalleryGame;
 			sourceTree = "<group>";
@@ -128,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF7EC3724DC8B8F0091B8ED /* bubblepop.wav in Resources */,
 				9AF7EC2824DC0A6A0091B8ED /* Main.storyboard in Resources */,
 				9AF7EC1F24DC0A6A0091B8ED /* GameScene.sks in Resources */,
 				9AF7EC2A24DC0A6D0091B8ED /* Assets.xcassets in Resources */,
+				9AF7EC3924DC8C0B0091B8ED /* backgroundtheme.wav in Resources */,
 				9AF7EC2D24DC0A6D0091B8ED /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +156,7 @@
 				9AF7EC2324DC0A6A0091B8ED /* GameScene.swift in Sources */,
 				9AF7EC2524DC0A6A0091B8ED /* GameViewController.swift in Sources */,
 				9AF7EC1D24DC0A6A0091B8ED /* AppDelegate.swift in Sources */,
+				9AF7EC3524DC7A610091B8ED /* Fish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
