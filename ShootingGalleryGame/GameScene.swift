@@ -16,6 +16,7 @@ class GameScene: SKScene {
     let seaBedTop = ["fishTile_006", "fishTile_007", "fishTile_009"]
     let algae = ["fishTile_014", "fishTile_015", "fishTile_016", "fishTile_017", "fishTile_032", "fishTile_033", "fishTile_034", "fishTile_035"]
     var scoreLabel: SKLabelNode!
+    var gameOverLabel: SKLabelNode!
     var isGameOver = false
     var score = 0 {
         didSet {
@@ -29,7 +30,7 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         createBackgroundGradient()
         addSeaBed()
-        scoreLabel = SKLabelNode(fontNamed: "Chalkboard Regular")
+        scoreLabel = SKLabelNode(fontNamed: "ChalkboardSE-Regular")
         scoreLabel.color = .brown
         scoreLabel.position = CGPoint(x: 15, y: 1290)
         scoreLabel.horizontalAlignmentMode = .left
@@ -99,6 +100,13 @@ class GameScene: SKScene {
     }
     
     @objc func setGameOver() {
+        gameOverLabel = SKLabelNode(fontNamed: "ChalkboardSE-Bold")
+        gameOverLabel.position = CGPoint(x: frame.midX, y: frame.midY)
+        gameOverLabel.horizontalAlignmentMode = .center
+        gameOverLabel.fontSize = 110
+        gameOverLabel.text = "GAME OVER"
+        addChild(gameOverLabel)
+        scoreLabel.position = CGPoint(x: 325, y: frame.midY - 100)
         isGameOver = true
     }
     
